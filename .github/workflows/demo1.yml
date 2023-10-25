@@ -7,12 +7,11 @@ on:
   push: 
     branches: 
       - main # main
-      - dev #dev
       - 'dev-*' # dev-new dev-this-isnew
       - 'feat/**' # feat/new feat/new/button
       # developer-1
     paths-ignore:
-      - '.github/workflow/*'
+      - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
