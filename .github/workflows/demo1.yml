@@ -7,7 +7,8 @@ on:
   push: 
     branches: 
       - main # main
-      - 'dev-*' # dev-new dev-this-isinew
+      - dev #dev
+      - 'dev-*' # dev-new dev-this-isnew
       - 'feat/**' # feat/new feat/new/button
       # developer-1
     paths-ignore:
